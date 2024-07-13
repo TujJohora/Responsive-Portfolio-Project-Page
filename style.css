@@ -73,6 +73,7 @@ nav a img {
 .work {
   margin-top: 200px;
   display: grid;
+  place-items: center;
   grid-template-areas:
     " a b"
     "c d";
@@ -124,6 +125,7 @@ nav a img {
 .project {
   margin-top: 100px;
   display: grid;
+  place-items: center;
   grid-template-areas:
     " e"
     "f";
@@ -180,6 +182,6 @@ footer {
   }
 
   .project img {
-    width: 80%;
+    width: 100%;
   }
 }
